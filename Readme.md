@@ -8,8 +8,8 @@ This project uses generative sequence modeling — a Markov chain and a variatio
 - 104 Anti-Inflammatory AMPs
 
 ## Methods
-1. Data
-/nTwo sets of peptide sequences were used: (1) the full APD3/APD6 antimicrobial peptide database, for broad sequence pretraining, and (2) a small subset (~104 sequences) annotated as anti-inflammatory within APD3/APD6, the actual design target. A separate, independently labeled dataset (DeepAIP: 4,480 peptides labeled AIP/non-AIP) was used for scoring.
+1. Data<br>
+Two sets of peptide sequences were used: (1) the full APD3/APD6 antimicrobial peptide database, for broad sequence pretraining, and (2) a small subset (~104 sequences) annotated as anti-inflammatory within APD3/APD6, the actual design target. A separate, independently labeled dataset (DeepAIP: 4,480 peptides labeled AIP/non-AIP) was used for scoring.
 
 2. Generation
 /nTwo generative models were trained to produce candidate sequences:
